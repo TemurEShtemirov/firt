@@ -9,3 +9,15 @@ h1{
 p{
     color: blue;
 }
+.animation{
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 15px;
+    animation: animation 5s 1;
+}
+@keyframes inamation {
+    100%{
+        left: 20px; transform: -360;
+    }
+}
